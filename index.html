@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kira Clark - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nunito:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      background-color: #dce5d1;
+      color: #5e3c2c;
+      font-family: 'Nunito', sans-serif;
+    }
+    h1, h2, .display-4 {
+      font-family: 'Gloria Hallelujah', cursive;
+      color: #e7a8b0;
+    }
+    .navbar-custom {
+      background-color: #5e3c2c;
+      font-family: 'Gloria Hallelujah', cursive;
+    }
+    .navbar .nav-link {
+      color: #e7a8b0 !important;
+      font-weight: 600;
+      font-family: 'Gloria Hallelujah', cursive;
+    }
+    .navbar-brand {
+      color: #e7a8b0 !important;
+      font-family: 'Gloria Hallelujah', cursive;
+      font-size: 1.5rem;
+    }
+    .intro-box {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 700px;
+      text-align: center;
+    }
+    .highlight {
+      color: #e7a8b0;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #5e3c2c;
+      color: #e7a8b0;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
+    .navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  min-height: 60px;
+  position: relative;
+  z-index: 2;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body > main {
+  flex: 1;
+}
+
+
+
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand position-absolute" href="index.html" style="top: -30px; left: 1rem;">
+        <img src="logo3.png" alt="Kira Clark Logo" style="height: 110px;">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Intro Content -->
+  <main>
+  <div class="intro-box">
+    <h1 class="display-4">✨🌎 Hello World 🌎✨</h1>
+    <div class="d-flex justify-content-center align-items-center gap-4 flex-wrap mb-3">
+      <img src="headshot.jpg" alt="Kira Clark Headshot" 
+           style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%; border: 3px solid #e7a8b0;">
+    </div>
+    
+    <p class="lead">
+      I’m Kira, a computer engineering student who loves learning and creating new things.  
+      This cozy little corner of the web is where I share what I’m currently studying, building, and creating — from code to crafts✨
+    </p>
+    <div class="d-flex justify-content-center gap-3 mt-4 flex-wrap">
+      <a href="about.html" class="btn btn-outline-secondary btn-lg">About Me</a>
+      <a href="projects.html" class="btn btn-outline-secondary btn-lg">Projects</a>
+      <a href="contact.html" class="btn btn-outline-secondary btn-lg">Contact</a>
+    </div>
+  </div>
+  </main>
+  <!-- Footer -->
+  <footer>
+    Made with 💻 & ✨ by Kira Clark · © 2025
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
